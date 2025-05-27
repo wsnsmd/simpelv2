@@ -86,6 +86,7 @@ class Login extends BasePage
 
     public function form(Form $form): Form
     {
+        dd(\App\Models\Tahun::where('aktif', true)->pluck('tahun', 'tahun'));
         return $form
             ->schema([
                 TextInput::make('username')
