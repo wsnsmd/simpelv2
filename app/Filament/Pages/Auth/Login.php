@@ -38,8 +38,8 @@ class Login extends BasePage
         }
 
         $this->form->fill([
-            'username' => 'superadmin',
-            'password' => 'superadmin',
+            'username' => '',
+            'password' => '',
             'tahun' => date('Y'),
         ]);
     }
