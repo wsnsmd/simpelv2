@@ -32,7 +32,7 @@ class FasilitatorResource extends Resource
                 Forms\Components\TextInput::make('nip')
                     ->label('NIP')
                     ->nullable()
-                    ->numeric()
+                    // ->numeric()
                     ->maxLength(18),
 
                 Forms\Components\TextInput::make('nama')

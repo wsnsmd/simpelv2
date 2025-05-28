@@ -25,7 +25,7 @@ class Login extends BasePage
     protected static string $view = 'filament.pages.auth.login';
     protected static string $layout = 'filament.layouts.auth';
     public $useTahun = true;
-    public $useCaptcha = false;
+    public $useCaptcha = true;
 
     public function mount(): void
     {
