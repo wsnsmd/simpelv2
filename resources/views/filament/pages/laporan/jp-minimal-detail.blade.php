@@ -1,11 +1,4 @@
 <x-filament::page>
-    <x-filament-panels::form
-            id="form"
-            :wire:key="$this->getId() . '.forms.' . $this->getFormStatePath()"
-            wire:submit="save"
-        >
-            <button>Lesles</button>
-    </x-filament-panels::form>
     <div class="p-6 bg-white shadow-md rounded-lg dark:bg-gray-800">
         <h2 class="text-2xl font-bold dark:text-gray-100">Rekapitulasi JP Widyaiswara</h2>
 
