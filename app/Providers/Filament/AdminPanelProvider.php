@@ -59,7 +59,7 @@ class AdminPanelProvider extends PanelProvider
         return $panel
             ->default()
             ->id('admin')
-            ->path('v2/admin')
+            ->path('admin')
             ->login(Login::class)
             ->maxContentWidth(MaxWidth::Full)
             ->favicon(fn (GeneralSettings $settings) => Storage::url($settings->site_favicon))
